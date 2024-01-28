@@ -30,47 +30,16 @@
   
   <link rel="stylesheet" type="text/css" href="assets/css/topbar.virtual.css">
 </head>
+
+<!--
+  Alternative themes:
+  theme-blue, theme-green, theme-orange, theme-purple, theme-red
+-->
 <body class="theme-red">
   
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
-  </div>
-  
-  <!-- Setting button -->
-  <div class="config">
-    <!--Remove this later-->
-    <div class="template-config">
-      <!-- Settings -->
-      <div class="d-block">
-        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
-      </div>
-      <!-- Puschase -->
-      <div class="d-block">
-        <a href="https://macodeid.com/projects/virtual-folio/" class="btn btn-fab btn-sm" title="Get this template" data-toggle="tooltip" data-placement="left"><span class="ti-download"></span></a>
-      </div>
-      <!-- Help -->
-      <div class="d-block">
-        <a href="#" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left"><span class="ti-help"></span></a>
-      </div>
-    </div>
-    <div class="set-menu">
-      <p>Select Color</p>
-      <div class="color-bar" data-toggle="selected">
-        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
-        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
-        <span class="color-item bg-theme-green" data-class="theme-green"></span>
-        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
-        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
-      </div>
-      <select class="custom-select d-block my-2" id="change-page">
-        <option value="">Choose Page</option>
-        <option value="index">Topbar</option>
-        <option value="blog-topbar">Blog (Topbar)</option>
-        <option value="index-2">Minibar</option>
-        <option value="blog-minibar">Blog (Minibar)</option>
-      </select>
-    </div>
   </div>
   
   <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image_1.jpg)">
@@ -90,6 +59,9 @@
               <a href="#about" class="nav-link" data-animate="scrolling">About</a>
             </li>
             <li class="nav-item">
+              <a href="#experience" class="nav-link" data-animate="scrolling">Experience</a>
+            </li>
+            <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
             </li>
             <li class="nav-item">
@@ -99,11 +71,6 @@
               <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
             </li>
           </ul>
-          <ul class="nav ml-auto">
-            <li class="nav-item">
-              <button class="btn btn-fab btn-theme no-shadow">En</button>
-            </li>
-          </ul>
         </div>
       </div>
     </div> <!-- End Navbar -->
@@ -111,7 +78,7 @@
     <div class="caption-header text-center wow zoomInDown">
       <h5 class="fw-normal">Welcome</h5>
       <h1 class="fw-light mb-4">I'm <b class="fg-theme">Venkata Sai Karthikeya</b></h1>
-      <div class="badge">Data Engineer | Data Analyst | Backend Developer | Android Developer</div>
+      <div class="badge">Graduate Student at California State University, Long Beach</div>
     </div> <!-- End Caption header -->
     <div class="floating-button"><span class="ti-mouse"></span></div>
   </div>
@@ -224,71 +191,157 @@
         </div>
       </div>
     </div>
-    <div class="container pt-5">
-      <div class="row">
-        <div class="col-md-6 wow fadeInRight">
-          <h2 class="fw-normal">Education</h2>
-          <ul class="timeline mt-4 pr-md-5">
-            <li>
-              <div class="title">August 2022 - May 2024</div>
-              <div class="details">
-                <h5>Masters in Computer Science and Computer Engineering</h5>
-                <small class="fg-theme">California State University, Long Beach, California, USA</small>
-                <p>Artificial Intelligence, Deep Learning, Advanced Data Analysis, Advanced Algorithms, Big Data, Data Warehousing, Web Semantics, Database Systems, Advanced Software Engineering, Software Testing and Validation</p>
-                <p>CGPA - 3.9 / 4.0</p>
-              </div>
-            </li>
-            <li>
-              <div class="title">August 2016 - April 2020</div>
-              <div class="details">
-                <h5>Bachelors in Computer Science and Computer Engineering</h5>
-                <small class="fg-theme">Sathyabama University, Chennai, Tamil Nadu, India</small>
-                <p>Programming, Data Structures and Algorithms, Probability and Statictics, Databases, Operating Systems, Computer Networks, Theory of Computation, Compiler Design</p>
-                <p>CGPA - 4.0 / 4.0</p>
-              </div>
-            </li>
-            <li>
-              <div class="title">June 2014 - June 2016</div>
-              <div class="details">
-                <h5>Higher Secondary</h5>
-                <small class="fg-theme">Narayana Junior College, Madhapur, Hyderabad, India</small>
-                <p>Maths, Physics, Chemistry, English, Sanskrit</p>
-                <p>Percentage - 96.4%</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
-          <h2 class="fw-normal">Experience</h2>
-          <ul class="timeline mt-4 pr-md-5">
-            <li>
-              <div class="title">2017 - Current</div>
-              <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-              </div>
-            </li>
-            <li>
-              <div class="title">2014</div>
-              <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-              </div>
-            </li>
-            <li>
-              <div class="title">2011</div>
-              <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-              </div>
-            </li>
-          </ul>
+
+    <div class="vg-page page-experience" id="experience">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight">
+            <h2 class="fw-normal">Education</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">August 2022 - May 2024</div>
+                <div class="details">
+                  <h5>Masters in Computer Science</h5>
+                  <small class="fg-theme">California State University, Long Beach, California, USA</small>
+                  <p>Course Work:<br>
+                    1. Advanced Artificial Intelligence<br>
+                    2. Pattern Recognition<br>
+                    3. Natural Language Processing<br>
+                    4. Advanced Analysis of Algorithms<br>
+                    5. Advanced Programming Languages<br>
+                    6. Distributed Computing<br>
+                  </p>
+                  <p>CGPA - 3.9 / 4.0</p>
+                </div>
+              </li>
+              <li>
+                <div class="title">August 2016 - April 2020</div>
+                <div class="details">
+                  <h5>Bachelors in Computer Science</h5>
+                  <small class="fg-theme">Sathyabama University, Chennai, Tamil Nadu, India</small>
+                  <p>Course Work:<br>
+                    1. Programming Languages<br>
+                    2. Data Structures and Algorithms<br>
+                    3. Database Management Systems<br>
+                    4. Operating Systems<br>
+                    5. Computer Networks<br>
+                    6. Data Warehousing<br>
+                  </p>
+                  <p>CGPA - 4.0 / 4.0</p>
+                </div>
+              </li>
+            </ul>
+            <h2 class="fw-normal">Certifications</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">Jan 2024</div>
+                <div class="details">
+                  <h5>AWS Certified Developer Associate</h5>
+                  <small class="fg-theme">Amazon Web Services (AWS)</small>
+                  <div class="text-left">
+                    <a href="https://www.credly.com/badges/2c49a19d-da71-4ad1-8aba-70bbd6b65b0f/public_url" class="badge badge-subhead wow fadeInUp">Badge</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="title">Jan 2024</div>
+                <div class="details">
+                  <h5>SQL Advanced</h5>
+                  <small class="fg-theme">Hackerrank</small>
+                  <div class="text-left">
+                    <a href="https://www.hackerrank.com/certificates/4bba0d4a91c5" class="badge badge-subhead wow fadeInUp">Certificate</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="title">Dec 2023</div>
+                <div class="details">
+                  <h5>SQL Intermediate</h5>
+                  <small class="fg-theme">Hackerrank</small>
+                  <div class="text-left">
+                    <a href="https://www.hackerrank.com/certificates/10439ed4bcbc" class="badge badge-subhead wow fadeInUp">Certificate</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="title">Nov 2023</div>
+                <div class="details">
+                  <h5>SQL Basic</h5>
+                  <small class="fg-theme">Hackerrank</small>
+                  <div class="text-left">
+                    <a href="https://www.hackerrank.com/certificates/52f8bd0b01d1" class="badge badge-subhead wow fadeInUp">Certificate</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="title">Sep 2020</div>
+                <div class="details">
+                  <h5>Problem Solving</h5>
+                  <small class="fg-theme">Hackerrank</small>
+                  <div class="text-left">
+                    <a href="https://www.hackerrank.com/certificates/733bc5738f19" class="badge badge-subhead wow fadeInUp">Certificate</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+            <h2 class="fw-normal">Experience</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">Sep 2022 - Current</div>
+                <div class="details">
+                  <h5>Graduate Assistant</h5>
+                  <small class="fg-theme">California State University - Student Affairs</small>
+                  <ul>
+                    <li>Created 12 dashboards in PowerBI to analyze the success rate, dropout rate and other metrics of students across various CSU's in the CSU system</li>
+                    <li>Developed automation scripts for 25+ Excel reports for cloud data ingestion, which decreased the manual data entry by 60% </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="title">Dec 2021 - Aug 2022</div>
+                <div class="details">
+                  <h5>Software Engineer</h5>
+                  <small class="fg-theme">Jumbotail Technologies, Bangalore, India</small>
+                  <ul>
+                    <li>Responsible for the development of APIs for Variant Discovery for Jumbotail Grocery Catalog that promoted the sales of distinct variants of products by 40%</li>
+                    <li>Integrated RazorPay as a Payment Mode in Jumbo Fintech module to control the transactions from various payment channels through a central entity. This minimized the Payment Gateway Transaction Issues by 70%</li>
+                    <li>Improved the response time of Jumbotail search API from 5 milli seconds to 2 milli seconds by caching the frequent searches using Redis</li>
+                    <li>Intercepted 18 APIs from multiple services to embed security changes using Spring Security Interceptors</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="title">Apr 2020 - Dec 2021</div>
+                <div class="details">
+                  <h5>Software Engineer</h5>
+                  <small class="fg-theme">Zoho Corporation, Chennai, India</small>
+                  <ul>
+                    <li>Designed a batch processing workflow using Apache Spark to migrate the passwords from third party password managers like Dashlane, Google Password Manger etc., to Zoho Vault which increased customer satisfaction by 70%</li>
+                    <li>Revamped 17 Folder Management APIs in Vault from a traditional Folder in Folder structure to an adaptive tree structure</li>
+                    <li>Monitored newly implemented microservices for the purpose of isolating areas of improvement, thereby introduced batch processing and achieved 50% increase in processing capability</li>
+                    <li>Pioneered the Password Sync APIs to support offline, and low bandwidth use cases for Android, and IOS. Used Apache Spark to batch process the bulk passwords from mobile platforms</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="title">Nov 2019 - Apr 2020</div>
+                <div class="details">
+                  <h5>Software Engineer Intern</h5>
+                  <small class="fg-theme">Zoho Corporation, Chennai, India</small>
+                  <ul>
+                    <li>Collaborated with a team of 3 interns to upgrade APIs from v1 to v2 consumed by internal apps</li>
+                    <li>Closed 17 bugs related to 4 microservices of Zoho Vault's product verticals which decreased overall bugs by 40%</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+    
   </div>
   
   <div class="vg-page page-service">
@@ -350,20 +403,21 @@
     <div class="container">
       <div class="row section-counter">
         <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="768">768</h1>
-          <span>Clients</span>
+          <h1 class="number" data-number="28">28</h1>
+          <span>API Endpoints</span>
         </div>
         <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="230">230</h1>
-          <span>Project Compleate</span>
+          <h1 class="number" data-number="52">52</h1>
+          <span>Bug Fixes</span>
         </div>
         <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="97">97</h1>
-          <span>Project Ongoing</span>
+          <h1 class="number" data-number="12">12</h1>
+          <span>Cloud Solutions</span>
         </div>
         <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="699">699</h1>
-          <span>Client Satisfaction</span>
+          <h1 class="number" data-number="18">18</h1>
+          <span>Dashboards</span>
+        </div>
         </div>
       </div>
     </div>
@@ -645,7 +699,7 @@
   </div> -->  
   
   <!-- Footer -->
-  <div class="vg-footer">
+  <div class="vg-footer" id="contact">
     <h1 class="text-center">Reach me via</h1>
     <div class="container">
       <div class="row">
